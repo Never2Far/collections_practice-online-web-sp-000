@@ -9,11 +9,11 @@ end
 def sort_array_char_count(array)
 array.sort { |a , b|
   if a.length == b.length
-    return 0
+    0
   elsif a.length < b.length
-    return -1
+    -1
   elsif a.length > b.length
-    return 1
+    1
   end
 }
 end
