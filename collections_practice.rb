@@ -43,3 +43,7 @@ def find_a(array)
     string.start_with?("a")
   }
 end
+
+def sum_array(array)
+return array.sum
+end
