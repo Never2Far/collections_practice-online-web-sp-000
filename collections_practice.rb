@@ -18,5 +18,5 @@ def swap_elements_from_to(array, index1, index2)
 
   array[index2] = first
   array[index1] = second
-  
+
 end
