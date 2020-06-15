@@ -12,6 +12,10 @@ array.sort { |a , b|
 }
 end
 
+def swap_elements(array)
+ swap_elements_from_to(array, 1, 2)
+end
+
 def swap_elements_from_to(array, index1, index2)
   first = array[index1]
   second = array[index2]
